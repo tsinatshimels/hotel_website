@@ -1,0 +1,297 @@
+/* Reset for the default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  padding: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+.text-primary {
+  /* background: gray; */
+  color: #f7c08a;
+}
+.clr {
+  clear: both;
+}
+
+.py-1 {
+  padding: 5% 0;
+}
+.py-2 {
+  padding: 20% 0;
+}
+.py-3 {
+  padding: 30% 0;
+}
+
+.l-heading {
+  font-size: 250%;
+}
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+.btn {
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  background: #f7c08a;
+  color: black;
+}
+
+.btn-dark {
+  background: #f7c08a;
+  color: black;
+}
+
+.btn-light {
+  background: rgb(236, 228, 228);
+  color: black;
+}
+
+.bg-dark {
+  background: #333;
+  color: rgb(236, 228, 228);
+}
+
+.bg-light {
+  background: rgb(236, 228, 228);
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: black;
+}
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 200%;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar li a:hover,
+#navbar li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+#showcase {
+  background: url(../img/img7.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: white;
+  padding: 100px 150px;
+}
+
+#showcase .showcase-content h1 {
+  padding: 50px;
+  font-size: 60px;
+}
+
+#showcase .showcase-content p {
+  padding: 10px;
+  line-height: 1.2em;
+  padding-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 13px 50px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+#showcase .showcase-content .btn:hover {
+  background: #f7c08a;
+  color: black;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+#home-info {
+  height: 650px;
+}
+
+#home-info .info-img {
+  background: url(../img/img9.jpg) no-repeat center/cover;
+
+  min-height: 100%;
+  float: left;
+  width: 50%;
+}
+#home-info .info-content {
+  background: #333;
+  color: white;
+  float: right;
+  text-align: center;
+  width: 50%;
+  min-height: 100%;
+}
+
+#home-info .info-content h2 {
+  text-align: center;
+}
+#home-info .info-content p {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+
+#home-info .info-content .btn-light {
+  background: white;
+  color: #333;
+  text-align: center;
+}
+#home-info .info-content .btn-light:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+/* features */
+.box {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* About page  */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* testimonies */
+
+#testimonialy {
+  height: 600px;
+  background: url(../img/img8.jpg) no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonialy h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+#testimonialy .testimony {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+#testimonialy .testimony img {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+/* Contact */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px #ddd solid;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#main-footer {
+  background: #000000;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
